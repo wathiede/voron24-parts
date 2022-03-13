@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - X Axis</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="index.html">
+        <h1>Photo album</h1>
+      </a>
+    </header>
+    
+    <!--
+      Breadcrumbs of parent albums
+    -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;≫&nbsp;&nbsp;<a class="breadcrumb-item" href="Gantry.html">Gantry</a>&nbsp;&nbsp;≫&nbsp;&nbsp;<a class="breadcrumb-item" href="Gantry-X_Axis.html">X Axis</a>
+      </nav>
+    
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+     <li>
+       <a href="Gantry-X_Axis-XY_Joints.html">
+         <h3>XY Joints</h3>
+         <div class="meta">
+           8 photos<br />
+           06 Mar 2022 - 06 Mar 2022
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Gantry/X_Axis/XY_Joints/%5Ba%5D_endstop_pod_D2F_switch.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/XY_Joints/%5Ba%5D_endstop_pod_hall_effect.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/XY_Joints/%5Ba%5D_xy_joint_cable_bridge_2hole.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/XY_Joints/%5Ba%5D_xy_joint_cable_bridge_3hole.png" /></li>     </ul>
+       </a>
+     </li>
+     <li>
+       <a href="Gantry-X_Axis-X_Carriage.html">
+         <h3>X Carriage</h3>
+         <div class="meta">
+           3 albums, 35 photos<br />
+           06 Mar 2022 - 06 Mar 2022
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/Gantry/X_Axis/X_Carriage/%5Ba%5D_blower_housing_front.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/X_Carriage/blower_housing_rear.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/X_Carriage/hotend_fan_mount.png" /></li><li><img src="media/thumbs/Gantry/X_Axis/X_Carriage/pinda_adapter.png" /></li>     </ul>
+       </a>
+     </li>
+    </ul>
+    
+    
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+    </ul>
+    
+    <!--
+      Pagination
+    -->
+    
+    <!--
+      Zip file link
+    -->
+    
+    
+    <!--
+      Optional footer
+    -->
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
