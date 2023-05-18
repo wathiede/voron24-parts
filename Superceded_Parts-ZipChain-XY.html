@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Photo album - XY</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    <header>
+      <a href="index.html">
+        <h1>Photo album</h1>
+      </a>
+    </header>
+    
+    <!--
+      Breadcrumbs of parent albums
+    -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;≫&nbsp;&nbsp;<a class="breadcrumb-item" href="Superceded_Parts.html">Superceded Parts</a>&nbsp;&nbsp;≫&nbsp;&nbsp;<a class="breadcrumb-item" href="Superceded_Parts-ZipChain.html">ZipChain</a>&nbsp;&nbsp;≫&nbsp;&nbsp;<a class="breadcrumb-item" href="Superceded_Parts-ZipChain-XY.html">XY</a>
+      </nav>
+    
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+    </ul>
+    
+    
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+        
+          <li data-src="media/large/Superceded_Parts/ZipChain/XY/zipchain2_xy_end.png"
+              data-sub-html="zipchain2_xy_end"
+              data-download-url="https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Superceded_Parts/ZipChain/XY/zipchain2_xy_end.stl"
+              
+              data-filename="zipchain2_xy_end.png"
+        
+            >
+            <a href="media/large/Superceded_Parts/ZipChain/XY/zipchain2_xy_end.png">
+              <figure>
+                <img src="media/thumbs/Superceded_Parts/ZipChain/XY/zipchain2_xy_end.png"
+                     width="120"
+                     height="120"
+                     alt="zipchain2_xy_end.png" />
+                <figcaption class="meta">zipchain2_ xy_ end</figcaption>
+              </figure>
+            </a>
+          </li>    
+          <li data-src="media/large/Superceded_Parts/ZipChain/XY/zipchain2_xy_link_a.png"
+              data-sub-html="zipchain2_xy_link_a"
+              data-download-url="https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Superceded_Parts/ZipChain/XY/zipchain2_xy_link_a.stl"
+              
+              data-filename="zipchain2_xy_link_a.png"
+        
+            >
+            <a href="media/large/Superceded_Parts/ZipChain/XY/zipchain2_xy_link_a.png">
+              <figure>
+                <img src="media/thumbs/Superceded_Parts/ZipChain/XY/zipchain2_xy_link_a.png"
+                     width="120"
+                     height="120"
+                     alt="zipchain2_xy_link_a.png" />
+                <figcaption class="meta">zipchain2_ xy_ link_ a</figcaption>
+              </figure>
+            </a>
+          </li>    
+          <li data-src="media/large/Superceded_Parts/ZipChain/XY/zipchain2_xy_link_b.png"
+              data-sub-html="zipchain2_xy_link_b"
+              data-download-url="https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Superceded_Parts/ZipChain/XY/zipchain2_xy_link_b.stl"
+              
+              data-filename="zipchain2_xy_link_b.png"
+        
+            >
+            <a href="media/large/Superceded_Parts/ZipChain/XY/zipchain2_xy_link_b.png">
+              <figure>
+                <img src="media/thumbs/Superceded_Parts/ZipChain/XY/zipchain2_xy_link_b.png"
+                     width="120"
+                     height="120"
+                     alt="zipchain2_xy_link_b.png" />
+                <figcaption class="meta">zipchain2_ xy_ link_ b</figcaption>
+              </figure>
+            </a>
+          </li></ul>
+    
+    <!--
+      Pagination
+    -->
+    
+    <!--
+      Zip file link
+    -->
+    
+    
+    <!--
+      Optional footer
+    -->
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>

@@ -1,39 +1,19 @@
-2022-08-19T21:57:15.775Z thumbsup:warn gifsicle (http://www.lcdf.org/gifsicle) is not installed. You will not be able to process animated GIFs.
-2022-08-19T21:57:15.775Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
-2022-08-19T21:57:15.775Z thumbsup:warn zip (https://linux.die.net/man/1/zip) is not installed. You will not be able to create ZIP files.
-2022-08-19T21:57:15.789Z thumbsup:error Error: The module '/home/wathiede/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
-2022-08-19T21:57:15.789Z thumbsup:error was compiled against a different Node.js version using
-2022-08-19T21:57:15.789Z thumbsup:error NODE_MODULE_VERSION 83. This version of Node.js requires
-2022-08-19T21:57:15.789Z thumbsup:error NODE_MODULE_VERSION 93. Please try re-compiling or re-installing
-2022-08-19T21:57:15.789Z thumbsup:error the module (for instance, using `npm rebuild` or `npm install`).
-2022-08-19T21:57:15.789Z thumbsup:error     at Object.Module._extensions..node (node:internal/modules/cjs/loader:1189:18)
-2022-08-19T21:57:15.789Z thumbsup:error     at Module.load (node:internal/modules/cjs/loader:981:32)
-2022-08-19T21:57:15.789Z thumbsup:error     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
-2022-08-19T21:57:15.789Z thumbsup:error     at Module.require (node:internal/modules/cjs/loader:1005:19)
-2022-08-19T21:57:15.789Z thumbsup:error     at require (node:internal/modules/cjs/helpers:102:18)
-2022-08-19T21:57:15.789Z thumbsup:error     at bindings (/home/wathiede/node_modules/bindings/bindings.js:112:48)
-2022-08-19T21:57:15.789Z thumbsup:error     at new Database (/home/wathiede/node_modules/better-sqlite3/lib/database.js:48:64)
-2022-08-19T21:57:15.789Z thumbsup:error     at new Index (/home/wathiede/node_modules/thumbsup/src/components/index/index.js:17:15)
-2022-08-19T21:57:15.789Z thumbsup:error     at /home/wathiede/node_modules/thumbsup/src/steps/step-index.js:21:19
-2022-08-19T21:57:15.789Z thumbsup:error     at new Subscription (/home/wathiede/node_modules/zen-observable/lib/Observable.js:197:34)
-2022-08-19T21:58:50.711Z thumbsup:warn gifsicle (http://www.lcdf.org/gifsicle) is not installed. You will not be able to process animated GIFs.
-2022-08-19T21:58:50.711Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
-2022-08-19T21:58:50.711Z thumbsup:warn zip (https://linux.die.net/man/1/zip) is not installed. You will not be able to create ZIP files.
-2022-08-19T21:58:50.726Z thumbsup:error Error: The module '/home/wathiede/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
-2022-08-19T21:58:50.726Z thumbsup:error was compiled against a different Node.js version using
-2022-08-19T21:58:50.726Z thumbsup:error NODE_MODULE_VERSION 83. This version of Node.js requires
-2022-08-19T21:58:50.726Z thumbsup:error NODE_MODULE_VERSION 93. Please try re-compiling or re-installing
-2022-08-19T21:58:50.726Z thumbsup:error the module (for instance, using `npm rebuild` or `npm install`).
-2022-08-19T21:58:50.726Z thumbsup:error     at Object.Module._extensions..node (node:internal/modules/cjs/loader:1189:18)
-2022-08-19T21:58:50.726Z thumbsup:error     at Module.load (node:internal/modules/cjs/loader:981:32)
-2022-08-19T21:58:50.726Z thumbsup:error     at Function.Module._load (node:internal/modules/cjs/loader:822:12)
-2022-08-19T21:58:50.726Z thumbsup:error     at Module.require (node:internal/modules/cjs/loader:1005:19)
-2022-08-19T21:58:50.726Z thumbsup:error     at require (node:internal/modules/cjs/helpers:102:18)
-2022-08-19T21:58:50.726Z thumbsup:error     at bindings (/home/wathiede/node_modules/bindings/bindings.js:112:48)
-2022-08-19T21:58:50.726Z thumbsup:error     at new Database (/home/wathiede/node_modules/better-sqlite3/lib/database.js:48:64)
-2022-08-19T21:58:50.726Z thumbsup:error     at new Index (/home/wathiede/node_modules/thumbsup/src/components/index/index.js:17:15)
-2022-08-19T21:58:50.726Z thumbsup:error     at /home/wathiede/node_modules/thumbsup/src/steps/step-index.js:21:19
-2022-08-19T21:58:50.726Z thumbsup:error     at new Subscription (/home/wathiede/node_modules/zen-observable/lib/Observable.js:197:34)
-2022-08-19T21:59:28.094Z thumbsup:warn gifsicle (http://www.lcdf.org/gifsicle) is not installed. You will not be able to process animated GIFs.
-2022-08-19T21:59:28.094Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
-2022-08-19T21:59:28.094Z thumbsup:warn zip (https://linux.die.net/man/1/zip) is not installed. You will not be able to create ZIP files.
+2023-05-18T21:37:22.740Z thumbsup:warn gifsicle (http://www.lcdf.org/gifsicle) is not installed. You will not be able to process animated GIFs.
+2023-05-18T21:37:22.740Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
+2023-05-18T21:37:22.757Z thumbsup:error Error: The module '/home/wathiede/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
+2023-05-18T21:37:22.757Z thumbsup:error was compiled against a different Node.js version using
+2023-05-18T21:37:22.757Z thumbsup:error NODE_MODULE_VERSION 93. This version of Node.js requires
+2023-05-18T21:37:22.757Z thumbsup:error NODE_MODULE_VERSION 108. Please try re-compiling or re-installing
+2023-05-18T21:37:22.757Z thumbsup:error the module (for instance, using `npm rebuild` or `npm install`).
+2023-05-18T21:37:22.757Z thumbsup:error     at Module._extensions..node (node:internal/modules/cjs/loader:1338:18)
+2023-05-18T21:37:22.757Z thumbsup:error     at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-18T21:37:22.757Z thumbsup:error     at Module._load (node:internal/modules/cjs/loader:958:12)
+2023-05-18T21:37:22.757Z thumbsup:error     at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-05-18T21:37:22.757Z thumbsup:error     at require (node:internal/modules/cjs/helpers:110:18)
+2023-05-18T21:37:22.757Z thumbsup:error     at bindings (/home/wathiede/node_modules/bindings/bindings.js:112:48)
+2023-05-18T21:37:22.757Z thumbsup:error     at new Database (/home/wathiede/node_modules/better-sqlite3/lib/database.js:48:64)
+2023-05-18T21:37:22.757Z thumbsup:error     at new Index (/home/wathiede/node_modules/thumbsup/src/components/index/index.js:17:15)
+2023-05-18T21:37:22.757Z thumbsup:error     at /home/wathiede/node_modules/thumbsup/src/steps/step-index.js:21:19
+2023-05-18T21:37:22.757Z thumbsup:error     at new Subscription (/home/wathiede/node_modules/zen-observable/lib/Observable.js:197:34)
+2023-05-18T21:44:11.411Z thumbsup:warn gifsicle (http://www.lcdf.org/gifsicle) is not installed. You will not be able to process animated GIFs.
+2023-05-18T21:44:11.411Z thumbsup:warn dcraw (https://www.cybercom.net/~dcoffin/dcraw/) is not installed. You will not be able to process RAW photos.
